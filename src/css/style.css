@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto-Black', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #212121;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px solid;
+    border-color: #fff;
+    padding-right: 28px;
+}
