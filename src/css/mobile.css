@@ -1,0 +1,260 @@
+@media (max-width: 1200px) {
+    .menu .menu_item {
+        padding-right: 55px;
+    }
+
+    .menu .menu_link {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .menu .menu_item {
+        padding-right: 40px;
+    }
+
+    .promo .promo_header {
+        font-size: 50px;
+    }
+
+    .reasons .reasons_block {
+        align-items: flex-start;
+    }
+
+    .reasons .reasons_block .reasons_descr {
+        width: 300px;
+    }
+
+    .mobile_item {
+        width: 300px;
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menu .menu_item {
+        padding-right: 20px;
+    }
+
+    .subheader_logo img {
+        width: 100%;
+    }
+
+    .subheader_phone {
+        font-size: 20px;
+    }
+
+    .subheader .subheader_btn {
+        width: 100%;
+        height: 40px;
+        margin-top: 23px;
+    }
+
+    .promo .promo_header {
+        font-size: 40px;
+    }
+
+    .promo .promo_subheader {
+        font-size: 25px;
+    }
+
+    .reasons .reasons_block {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .reasons .reasons_block .reasons_descr {
+        margin-top: 20px;
+    }
+
+    .mobile_item {
+        width: 210px;
+        height: 210px;
+    }
+
+    .mobile_item_subtitle {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .mobile_item_plus {
+        bottom: 10px;
+    }
+
+    .footer_links {
+        margin-left: 30px;
+    }
+
+    .footer_mobile {
+        margin-left: 50px;
+    }
+
+    .footer_mobile a img {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        padding: 20px 15px;
+        background-color: rgb(0,0,0, 0.8);
+        transition: 0.6s all;
+    }
+    .menu_active {
+        left: 0;
+    }
+    .menu .menu_link {
+        font-size: 20px;
+    }
+
+    .menu .menu_item {
+        border: none;
+    }
+
+    .hamburger {
+        width: 25px;
+        height: 12px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: rotateY(-50%);
+
+    }
+
+    .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 2px;
+        transition: 0.5s all;
+    }
+
+    .hamburger_active span:nth-child(1){
+        transform: translateY(3px) rotate(-45deg);
+        margin-bottom: -2px;
+    }
+
+    .hamburger_active span:nth-child(2){
+        display: none;
+    }
+
+    .hamburger_active span:nth-child(3){
+        transform: translateY(3px) rotate(45deg);
+        margin-bottom: -2px;
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .xs-visible {
+        display: block;
+    }
+
+    .subheader_phone {
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff
+    }
+
+    .subheader .subheader_btn {
+        display: block;
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .promo .promo_header {
+        line-height: 45px;
+    }
+    
+    .footer_wrapper {
+        display: block;
+    }
+
+    .footer_social{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .footer_links {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .footer_mobile {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .subheader_official {
+        display: none;
+    }
+
+    .subheader .subheader_logo {
+        margin-top: 35px;
+    }
+
+    .subheader_phone {
+        margin-top: 23px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .subheader .subheader_btn {
+        width: 110px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+    .footer_divider {
+        width: 270px;
+    }
+
+    .footer_wrapper {
+        display: block;
+    }
+
+    .footer_social{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .footer_links {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .footer_mobile {
+        margin: 0 auto;
+    }
+}
