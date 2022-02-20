@@ -254,7 +254,15 @@
 
     }
 
+    .footer_links_sub {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .footer_mobile {
         margin: 0 auto;
+        width: 35%;
     }
 }
